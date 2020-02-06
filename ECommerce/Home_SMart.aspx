@@ -20,8 +20,6 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-  <asp:Label ID="lblMsg" runat="server" CssClass="align-content-center"></asp:Label>
-
          <%--Dropdown--%>
              <nav class="navbar navbar-expand-sm" style="padding:0px; /*background-color: #465466;*/">
        <div style="margin-left:20%;">

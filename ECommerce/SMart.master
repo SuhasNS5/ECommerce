@@ -62,7 +62,7 @@
     <div class="container"> <asp:Button ID="Button1" runat="server" class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar7"></asp:Button>
         <%--<span class="navbar-toggler-icon"></span>--%>
       
-      <div class="collapse navbar-collapse" id="navbar7"> <a class="navbar-brand mb-0 text-white" href="#">
+      <div class="collapse navbar-collapse" id="navbar7"> <a class="navbar-brand mb-0 text-white" href="Home_SMart.aspx">
           <i class="fa fa-renren" aria-hidden="true"></i>
           <b>SMart</b>
         </a>
@@ -83,7 +83,7 @@
               </div>
           </li>
               
-          <li class="nav-item "> <a class="nav-link text-white"  href="#"><b>Cart</b>
+          <li class="nav-item "> <a class="nav-link text-white"  href="UnderConstruction.aspx"><b>Cart</b>
               <i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i>
             </a> </li>
         </ul>

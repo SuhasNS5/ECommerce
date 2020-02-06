@@ -89,7 +89,7 @@
     <div class="container"> <asp:Button ID="Button1" runat="server" class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar7"></asp:Button>
         <%--<span class="navbar-toggler-icon"></span>--%>
       
-      <div class="collapse navbar-collapse" id="navbar7"> <a class="navbar-brand mb-0 text-white" href="#">
+      <div class="collapse navbar-collapse" id="navbar7"> <a class="navbar-brand mb-0 text-white" href="Home_SMart_User.aspx">
           <i class="fa fa-renren" aria-hidden="true"></i>
           <b>SMart</b>
         </a>
@@ -103,9 +103,13 @@
                                                              
           </li>
               
-          <li class="nav-item "> <a class="nav-link text-white"  href="#"><b>Cart</b>
+          <li class="nav-item "> <a class="nav-link text-white"  href="UnderConstruction.aspx"><b>Cart</b>
               <i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i>
-            </a> </li>
+            </a> </li> 
+            &nbsp;&nbsp;
+
+            <li class="nav-item">
+                <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Large" ForeColor="White" OnClick="LinkButton1_Click" PostBackUrl="~/Home_SMart.aspx">Logout</asp:LinkButton> </li>
         </ul>
       </div>
     </div>

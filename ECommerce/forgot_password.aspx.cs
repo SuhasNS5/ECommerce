@@ -39,13 +39,10 @@ public partial class forgot_password : System.Web.UI.Page
         }
         else
         {
-            lblMsg.Text = "Invalid User Name or Password";
+            lblMsg.Text = "Invalid Email-Id or Mobile Number";
         }
             
     }
 
-    protected void Button2_Click(object sender, EventArgs e)
-    {
-
-    }
+    
 }

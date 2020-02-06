@@ -43,4 +43,9 @@ public partial class Home_SMart_User : System.Web.UI.Page
     {
 
     }
+
+    protected void LinkButton1_Click(object sender, EventArgs e)
+    {
+        Session["Username"] = null;
+    }
 }
